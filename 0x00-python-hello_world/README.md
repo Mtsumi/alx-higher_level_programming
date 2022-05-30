@@ -10,4 +10,8 @@
 
 ## 2. Hello, print
 
-### 2-print.py is a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+### 2-print.py is a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line
+
+## 3. Print integer
+
+### 3-print_number.py prints the integer stored in the variable number, followed by Battery street, followed by a new line.
