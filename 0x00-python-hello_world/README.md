@@ -18,4 +18,8 @@
 
 ## 4. Print float
 
-### 4-print_float.py prints the float stored in the variable number with a precision of 2 digits..
+### 4-print_float.py prints the float stored in the variable number with a precision of 2 digits.
+
+## 5. Print string
+
+### 5-print_string.py prints 3 times a string stored in the variable str, followed by its first 9 characters.
