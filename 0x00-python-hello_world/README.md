@@ -7,3 +7,7 @@
 ## 1. Run inline
 
 ### 1-run_inline is a Shell script that runs a Python script saved in the environment variable $PYCODE
+
+## 2. Hello, print
+
+### 2-print.py is a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
