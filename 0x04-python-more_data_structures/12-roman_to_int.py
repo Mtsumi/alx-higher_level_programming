@@ -42,7 +42,9 @@ def roman_to_int(roman_string):
         for index in temp:
             if index == k:
                 result += v
-    return result#!/usr/bin/python3
+    return result
+
+
 def roman_to_int(roman_string):
     # Fail checks, none, not a string
     if not roman_string:
