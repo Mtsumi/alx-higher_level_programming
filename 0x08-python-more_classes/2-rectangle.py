@@ -23,7 +23,7 @@ class Rectangle:
     @width.setter
     def width(self, value):
         """Sets the width of a Rectangle instance
-        attributes:            
+        attributes:
             value: value of the width, must be a positive integer
         """
         if not isinstance(value, int):
