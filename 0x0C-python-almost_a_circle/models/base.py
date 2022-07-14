@@ -82,8 +82,8 @@ class Base:
         try:
             with open(f"{cls.__name__}.csv", "r") as file:
                 return [cls.create(
-                    **{k: int(v) for k, v in zip(cls.HEADERS,\
-     line.split(","))}
+                    **{k: int(v) for k, v in zip(cls.HEADERS,
+                        line.split(","))}
                 ) for line in file.readlines()]
         except FileNotFoundError:
             return []
