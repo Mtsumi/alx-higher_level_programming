@@ -8,9 +8,9 @@ import urllib.error
 import urllib.request
 
 if __name__ = __main__:
-    sys.argv[1] = url
+    url = sys.argv[1]
 
-    f = url.request.Request(url)
+    f = urllib.request.Request(url)
     try:
         with urllib.request.urlopen(f) as resp:
             print(resp.read().decode("ascii"))
